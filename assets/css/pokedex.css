@@ -1,6 +1,6 @@
 .pokemons {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -86,17 +86,17 @@
     border-radius: 1rem;
 }
 
-.pokemon .number {
-    color: #000;
-    opacity: .3;
-    text-align: right;
-    font-size: .625rem;
-}
-
 .pokemon .name {
-    text-transform: capitalize;
     color: #fff;
     margin-bottom: .25rem;
+    text-transform: capitalize;
+}
+
+.pokemon .number {
+    color: #000;
+    opacity: 0.3;
+    text-align: right;
+    font-size: .625;
 }
 
 .pokemon .detail {
@@ -114,12 +114,12 @@
 
 .pokemon .detail .types .type {
     color: #fff;
+    font-size: .825rem;
     padding: .25rem .5rem;
     margin: .25rem 0;
-    font-size: .825rem;
     border-radius: 1rem;
-    filter: brightness(1.1);
     text-align: center;
+    filter: brightness(1.1);
 }
 
 .pokemon .detail img {
